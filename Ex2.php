@@ -7,6 +7,7 @@
         $this->height = $height;
         $this->width = $width;
     }
+
     public function calculateArea(){}
  }
 
