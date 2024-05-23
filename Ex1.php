@@ -11,10 +11,10 @@ class Employee {
 
     public function greetings($name, $salary){
         if ($salary < 6000) {
-            echo "Hola $name, no has de pagar impostos.";
+            echo "Hola $this->name, no has de pagar impostos.";
         }
         else{
-            echo "Hola $name, has de pagar impostos.";
+            echo "Hola $this->name, has de pagar impostos.";
         }
     }
 
